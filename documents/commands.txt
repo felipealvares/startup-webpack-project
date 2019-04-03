@@ -1,0 +1,8 @@
+// install all modules on iMac 
+sudo npm install --unsafe-perm=true --allow-root
+
+// generation project
+npm run build
+
+// working on project 'control + C to stopp'
+npm start

@@ -1,3 +1,7 @@
+/* ==========================================================================
+    File that recives all scss imports ordered by score dependece
+   ========================================================================== */
+
 // Externals
 @import "~normalize.css/normalize.css";
 @import "~bootstrap/scss/bootstrap";
@@ -5,8 +9,13 @@
 $fa-font-path: "~font-awesome/fonts";
 @import "~font-awesome/scss/font-awesome";
 
+// Default
+@import "../default/variables.scss";
+@import "../default/common.scss";
+
 // Layouts
-// >
+@import "../layouts/header.scss";
+@import "../layouts/footer.scss";
 
 // Views
 @import "../views/index.scss";

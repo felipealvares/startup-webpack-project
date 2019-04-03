@@ -1,8 +1,12 @@
 // install all modules on iMac 
 sudo npm install --unsafe-perm=true --allow-root
 
-// generation project
+// generation project to gerenete distribution folder. When are you start with npm start webpack create in memory this folder
 npm run build
 
 // working on project 'control + C to stopp'
 npm start
+
+// if you close yor console and need to run another project
+lsof -i "portname"
+kill PID

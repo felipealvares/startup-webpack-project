@@ -9,7 +9,7 @@ module.exports = {
     mode: developmentMode ? 'development' : 'production',
     entry: './source/index.js',
     devServer: {
-        contentBase: './public',
+        contentBase: './distribution',
         port: 8080,
     },
     optimization: {
